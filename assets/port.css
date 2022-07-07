@@ -1,0 +1,28 @@
+.main{
+    width: 70%;
+    margin: auto;
+    background-color: aquamarine;
+}
+.main>.first-part>header{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: aqua;
+    margin: 0px;
+    width: 100%
+
+    
+}
+.links>a{
+    text-decoration: none;
+    margin:0px 9px;
+}
+img{
+    height: 400px;
+    width: 300px
+}
+.left-content{
+    display:flex;
+    /* align-items: center; */
+}
