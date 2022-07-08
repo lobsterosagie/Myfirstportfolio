@@ -1,3 +1,6 @@
+body{
+    background-color: bisque;
+}
 .main{
     width: 70%;
     margin: auto;
@@ -8,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content:space-around;
-    background-color: aqua;
+    background-color: rgba(29, 88, 88, 0.863);
     margin: 0px;
     width: 100%
 
