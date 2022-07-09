@@ -1,5 +1,5 @@
 body{
-    background-color:#0e081b1a;
+    background-color:#0e081b5d;
 }
 .main{
     width: 70%;
@@ -15,21 +15,24 @@ body{
     background-color: #0e081b;
     margin: 0px;
     width: 100%
-
-    
 }
 .links>a{
     text-decoration: none;
     margin:0px 9px;
     color:aliceblue;
+    transition: 200ms transform;
+}
+.links a:hover{
+    text-decoration: underline;
 }
 img{
     height: 250px;
-    width: 200px;
+    width: 180px;
     margin: auto;
-    padding-right: 5px;
+    padding-right: 10px;
     background-image: cover;
-    padding-top: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .left-content{
     display:flex;
@@ -52,7 +55,17 @@ button{
     outline: none;
     color: #fff;
     background-color: #000;
-
+    transition: 200ms transform;
+    transition-duration: 700ms;
+    transition-delay: 50ms;
+}
+button:hover{
+    transform: scale(1.1, 1.1);
+    background-color: aliceblue;
+    color:#000
+}
+button:active{
+    transform: scale(0.7,0.7);
 }
 .firstpart .left-content .text{
     margin: 0px 40px;
@@ -71,10 +84,10 @@ button{
 .second-part .card{
     display:inline-block;
     padding-left: 0px;
-    padding-top: 40px;
+    padding-top: 0px;
     text-align: center;
     border: 0px solid;
-    margin-top: 23px;
+    margin-top: 25px;
     margin-left: 20px;
     width: 300px;
     height: auto;
@@ -82,6 +95,17 @@ button{
     box-shadow: 4px 4px 4px #0e081b;
     border-radius: 10px;
     color:aliceblue;
+    transition: 100ms transform;
+    transition-delay: 0.10s;
+    transition-duration: 970ms;
+    opacity: 0.8;
+}
+.second-part .card:hover{
+    background-color: aliceblue;
+    color:#0e081b;
+    transform: scale(1.1,1.1) rotate(1deg);
+    opacity: 1.0;
+    box-shadow: 6px 6px 6px #0e081b98;
 }
 .second-part{
     background-color:#0e081bc4;
